@@ -41,6 +41,7 @@ body{
     font-family: "Sigmar", sans-serif;
     font-weight: 600;
     line-height: 30px; 
+    margin-bottom: 20px;
 }
 
 .uppercase{
@@ -66,17 +67,16 @@ body{
 }
 
 .main{
-    padding: 70px;
+    padding: 70px 30px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;    
 }
-
-.content{
-    margin-top: 20px;
+#download-section{
+    margin: 0px 55px;
 }
 
 .button{
-    width: 90%;
+    width: 95%;
     height: 50px;
     font-size: large;
     border-radius: 10px;
@@ -90,5 +90,16 @@ body{
     gap: 8px;
 }
 
+.topic{
+    width: auto;
+    height: auto;
+    margin: 30px 10px;
+    padding: 65px 40px;
+    border-radius: 20px;
+    background-size: cover;
+}
 
-
+.topic-image{
+    width: 100%;
+    margin-top: 20px;
+}
